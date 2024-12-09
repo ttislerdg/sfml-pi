@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.25)
 
 # define a macro that helps defining an option
 macro(sfml_set_option var default type docstring)
@@ -12,6 +12,9 @@ endmacro()
 
 # determine whether to create a debug or release build
 sfml_set_option(CMAKE_BUILD_TYPE Release STRING "Choose the type of build (Debug or Release)")
+
+# Select GLVND OpenGL 
+#set(OpenGL_GL_PREFERENCE GLVND)
 
 # Suppress Cygwin legacy warning
 set(CMAKE_LEGACY_CYGWIN_WIN32 0)

@@ -1,0 +1,9 @@
+{
+  "cmake.configureEnvironment": {
+    "SFML_DRM": "1"
+  },
+  "cmake.configureArgs": [
+    "-DSFML_DRM=1",
+    "-DSFML_OPENGL_ES=1"
+  ]
+}

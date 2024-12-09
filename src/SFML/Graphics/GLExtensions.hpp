@@ -30,7 +30,7 @@
 ////////////////////////////////////////////////////////////
 #include <SFML/Config.hpp>
 
-#ifdef SFML_OPENGL_ES
+#if 0 // #ifdef SFML_OPENGL_ES
 
     // Raspberry Pi specific hackery...
     //
